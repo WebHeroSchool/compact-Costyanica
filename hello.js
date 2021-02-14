@@ -1,5 +1,9 @@
 function compact(arr) {
-  return null
+
+  let newArr = arr.filter(el => el || el ===0);
+  
+  return newArr
 }
+
 
 module.exports = compact;
