@@ -1,5 +1,9 @@
 function compact(arr) {
-  return null
+
+  let newArr = arr.filter(function(i){return i});
+
+  return newArr
 }
+
 
 module.exports = compact;
